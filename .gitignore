@@ -1,0 +1,23 @@
+# Don't commit Python cache or compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Don't commit your virtual environment
+venv/
+env/
+
+# Don't commit dotenv or secret config
+.env
+
+# VS Code and OS-specific ignores
+.vscode/
+.DS_Store
+
+# Ignore Docker build artifacts
+*.log
+*.db
+*.sqlite3
+
+# Optional: ignore your test logs or temp files
+*.tmp
