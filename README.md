@@ -11,7 +11,7 @@ This is a simple AI-powered virtual assistant using FastAPI, OpenAI GPT-4, and D
 ## Run with Docker
 
 ```bash
-docker build -t ai-assistant .
+ docker build -t ai-assistant .
 docker run -e OPENAI_API_KEY=your_key_here -p 8000:8000 ai-assistant
 Example request
 curl -X POST http://localhost:8000/chat \
